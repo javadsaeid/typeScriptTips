@@ -1,21 +1,21 @@
 // the code below is imposible in type script uncomment to see.
-// let person = {};
-// person.name = 'a';
+// let obj = {};
+// obj.name = 'a';
 
 // to solve this issue we shuold use indes signatures
 
-class Person {
+class Obj {
     [name: string]: string;
 }
 
-const person = new Person;
-person.name = 'a';
+const obj = new Obj;
+obj.name = 'a';
 
 //-----------------------------------------------------------------
 
 // if we need some fix properties then we need to add the type of that property to the index signature too
 
-class SecondPerson {
+class SecondObj {
     [name: string]: string | number, // remove the number to see the error
     id: number = 0;
 }
