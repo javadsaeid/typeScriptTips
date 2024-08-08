@@ -1,4 +1,5 @@
 // when we need to override a method of parent class we can do it like this example.
+// to using override currectly it is better to uncomment "noImplicitOverride": true in the tsconfig.json
 
 class Override {
     constructor(public input1: string, public input2: string) {};
