@@ -25,4 +25,3 @@ let st = new Student(1, 'ahmad', 'saeid');
 
 console.log(st.takeTest()); // taking test
 console.log(st.fullName); // ahmad saeid
-
