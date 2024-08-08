@@ -29,7 +29,7 @@ class Seats {
 }
 
 const seat = new Seats;
-seat['A1'] = 'mona';
-seat['A2'] = 'mina';
+seat['A1'] = 'mona'; // or seat.A1
+seat['A2'] = 'mina'; // or seat.A2
 
 console.log(seat) // { A1: 'mona', A2: 'mina' }
