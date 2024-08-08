@@ -20,3 +20,16 @@ class SecondPerson {
     id: number = 0;
 }
 
+//-----------------------------------------------------------------
+
+// antother usefull exampel
+
+class Seats {
+    [seatNumber: string] : string
+}
+
+const seat = new Seats;
+seat['A1'] = 'mona';
+seat['A2'] = 'mina';
+
+console.log(seat) // { A1: 'mona', A2: 'mina' }
