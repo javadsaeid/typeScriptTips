@@ -30,4 +30,3 @@ class Account {
  // which leads to an infinite loop. This happens because inside the setter for someMethod,
  // you're trying to assign a value to this.someMethod, which calls the setter again, and so on, indefinitely.
  //  *** To fix this issue, you should define a private property to store the value of someMethod and use this property inside the getter and setter.
-
