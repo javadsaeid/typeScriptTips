@@ -8,5 +8,3 @@ interface Person {
 type SecondPerson =  {
     [P in keyof Person]: Person[P]
 }
-
-// with this tecnique we always can have a
