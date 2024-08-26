@@ -1,4 +1,4 @@
-// type narrowing is used when we need realize to exact type.
+// type narrowing is used when we need realize to exact type while using union types.
 function buyFunction(stuff: string, count: string | number) {
     if(typeof(count) === 'string') {
         return `${count.toLowerCase()} of ${stuff} is ordered`;
