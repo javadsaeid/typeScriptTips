@@ -2,11 +2,11 @@
 
 class Test {
     testA() {
-
+        console.log('runing test A')
     }
 
     testB() {
-
+        console.log('runing test B')
     }
 }
 
@@ -15,7 +15,8 @@ class SchoolTest extends Test {}
 class UniTest extends Test {}
 
 function checkTest(test: Test) {
-    console.log('calling test');
+    test.testA();
+    test.testB();
 }
 
 const t1 = new SchoolTest();
