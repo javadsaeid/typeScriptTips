@@ -21,6 +21,6 @@ function checkTest(test: Test) {
 
 const t1 = new SchoolTest();
 const t2 = new UniTest();
-
+// checkTest expect Test and works with subclasses
 checkTest(t1);
 checkTest(t2);
