@@ -1,4 +1,4 @@
-// array generic is a clean way to create arrays in typescript
+// array generic is a alternative way to create arrays in typescript
 let someNumber: number[] = [1, 2, 3];
 let someNumber_: Array<number> = [1, 2, 3];
 
